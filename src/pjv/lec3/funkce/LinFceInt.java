@@ -8,6 +8,20 @@ package pjv.lec3.funkce;
  *
  * @author cuhellub
  */
-public class LinFceInt {
+public class LinFceInt extends LinFce {   
+    double max, min;
+    
+    public LinFceInt(double max, double min, double b) {
+        super(b);
+        this.max = max;
+        this.min = min;
+    }
+
+    public LinFceInt(double max, double min, double a, double b) {
+        super(a, b);
+        this.max = max;
+        this.min = min;
+    }
+    
     
 }
