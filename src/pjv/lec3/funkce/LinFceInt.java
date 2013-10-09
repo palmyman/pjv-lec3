@@ -22,6 +22,9 @@ public class LinFceInt extends LinFce {
         this.max = max;
         this.min = min;
     }
-    
-    
+//    @Override
+//    double funValue(double x) {
+//        //throw Exception
+//        return this.a * x + this.b;
+//    }
 }
