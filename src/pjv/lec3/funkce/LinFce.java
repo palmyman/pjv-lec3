@@ -9,8 +9,8 @@ package pjv.lec3.funkce;
  * @author cuhellub
  */
 public class LinFce {
-    private double a;
-    private double b;
+    protected double a;
+    protected double b;
     public static final LinFce IDENTITA = new LinFce(1, 0);
 
     public LinFce(double b) {
